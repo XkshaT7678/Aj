@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aj Institute Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="login-container">
+        <h2>Aj Institute</h2>
+        <p>Please enter the password to access the videos</p>
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-msg"></p>
+    </div>
+
+    <div class="container" id="video-container" style="display:none;">
+        <h2>One Shot Videos</h2>
+        <div class="class-section">
+            <h3>Class 9</h3>
+            <ul>
+                <li><a href="videos/class9/topic1.mp4" target="_blank">Topic 1</a></li>
+                <li><a href="videos/class9/topic2.mp4" target="_blank">Topic 2</a></li>
+            </ul>
+        </div>
+        <div class="class-section">
+            <h3>Class 10</h3>
+            <ul>
+                <li><a href="videos/class10/topic1.mp4" target="_blank">Topic 1</a></li>
+                <li><a href="videos/class10/topic2.mp4" target="_blank">Topic 2</a></li>
+            </ul>
+        </div>
+        <div class="class-section">
+            <h3>Class 11</h3>
+            <ul>
+                <li><a href="videos/class11/topic1.mp4" target="_blank">Topic 1</a></li>
+                <li><a href="videos/class11/topic2.mp4" target="_blank">Topic 2</a></li>
+            </ul>
+        </div>
+        <div class="class-section">
+            <h3>Class 12</h3>
+            <ul>
+                <li><a href="videos/class12/topic1.mp4" target="_blank">Topic 1</a></li>
+                <li><a href="videos/class12/topic2.mp4" target="_blank">Topic 2</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
